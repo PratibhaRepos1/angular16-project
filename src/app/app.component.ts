@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular16-project';
+  messageMe = "Hello, How are you!"
+
+  update() {
+    this.messageMe = this.messageMe + ' Are you okay?';
+  }
 }
